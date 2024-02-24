@@ -1,0 +1,14 @@
+40391-24-10008
+5.04.18
+
+
+
+PYQT5  
+python -m venv Hasnat
+Hasnat\Scripts\activate.bat (install all packages)
+pip install PyQt5  
+pip install PyQt5Designer
+open Hasnat\Lib\site-packages\QtDesigner   and design and save as my.ui
+
+for code
+pyuic5 -x my.ui -o app.py
